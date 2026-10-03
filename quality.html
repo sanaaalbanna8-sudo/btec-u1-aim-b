@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark" data-scale="lg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>الجودة | البيانات والمعلومات</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d4ed8'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>(function(){try{if(localStorage.getItem("btec-u1b-theme")==="light")document.documentElement.classList.remove("dark");var s=localStorage.getItem("btec-u1b-scale");if(s)document.documentElement.dataset.scale=s;}catch(e){}})();</script>
+</head>
+<body data-page="station-4" data-label="الجودة">
+  <a class="skip" href="#content">تخطي إلى المحتوى</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a href="index.html" class="cluster" style="text-decoration:none;color:inherit">
+        <span class="hero-mark" aria-hidden="true"><svg viewBox="0 0 48 48" width="34" height="34"><circle cx="16" cy="30" r="7" fill="#f6d58a"/><circle cx="30" cy="16" r="8" fill="#fff"/><circle cx="34" cy="32" r="5" fill="#fdba74"/></svg></span>
+        <span><span class="kicker" style="display:block">الوحدة 1 · الصف الحادي عشر</span><strong class="logo-word">البيانات والمعلومات</strong></span>
+      </a>
+      <div class="cluster">
+        <span id="here" class="chip">الجودة</span>
+        <span id="timer-display" class="timer-readout">00:00</span>
+        <button id="timer-pause" class="btn btn-ghost" type="button" hidden>إيقاف مؤقت</button>
+        <button id="timer-stop" class="btn btn-ghost" type="button" hidden>إنهاء</button>
+        <button id="theme-toggle" class="btn btn-ghost" type="button">مظهر فاتح</button>
+        <button id="scale-toggle" class="btn btn-ghost" type="button">خط كبير</button>
+        <button id="glossary-open" class="btn btn-gold" type="button">المصطلحات</button>
+      </div>
+    </div>
+    <nav class="wrap nav-scroll" aria-label="صفحات الدرس">
+      <a class="nav-link" href="index.html">المقدمة</a>
+      <a class="nav-link" href="basics.html">الأساسيات</a>
+      <a class="nav-link" href="communities.html">المجتمعات</a>
+      <a class="nav-link" href="sources.html">المصادر</a>
+      <a class="nav-link" href="quality.html">الجودة</a>
+      <a class="nav-link" href="molly.html">مولي</a>
+      <a class="nav-link" href="practice.html">التدريب</a>
+    </nav>
+    <div class="progress"><span id="progress-bar"></span></div>
+    <p id="progress-label" class="sr">التقدم</p>
+    <p id="timer-status" class="sr" aria-live="polite"></p>
+  </header>
+  <main id="content">
+    <section class="page-hero">
+      <div class="wrap hero-grid">
+        <div class="stack">
+          <p class="kicker">المحطة الرابعة</p>
+          <h1>البيان الخاطئ لا يُصلح بالسرعة</h1>
+          <p>جمعنا المصدر. إن كان العنوان ناقصًا أو المريض مختلطًا بغيره، فالأتمتة تكثّر الخطأ ولا تصححه. هنا نفرّق التحقق من الصحة عن التحقق، ثم نرى كيف تُرتَّب القاعدة حتى تُستخرج المعلومة بأمان.</p>
+          <button class="btn btn-ghost" type="button" data-min="12">مؤقت 12 دقيقة</button>
+        </div>
+        <div class="scene" aria-hidden="true">
+          <svg viewBox="0 0 640 340">
+            <rect x="70" y="70" width="220" height="200" rx="28" fill="#1e3a8a"/>
+            <path d="M120 170 l40 40 80-90" fill="none" stroke="#fef9c3" stroke-width="14" stroke-linecap="round"/>
+            <rect x="340" y="90" width="220" height="160" rx="24" fill="#134e4a"/>
+            <rect x="370" y="130" width="160" height="16" rx="8" fill="#99f6e4"/>
+            <rect x="370" y="162" width="110" height="16" rx="8" fill="#fde68a"/>
+            <rect x="370" y="194" width="140" height="16" rx="8" fill="#fb7185"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section id="station-4" class="section-pad">
+      <div class="wrap stack">
+        <div class="grid md:grid-cols-2">
+          <article class="callout danger"><h2>عنوان يختلط</h2><p class="mt-2">إذا اختلطت عناوين متجر كبير لم تصل الطلبات. وطلب مخزون بكمية خاطئة يعني عميلًا ضائعًا أو بضاعة دُفع ثمنها وبقيت راكدة. نظام «في الوقت المحدد» ينهار هنا إن كذب رقم المخزون.</p></article>
+          <article class="callout danger"><h2>سجل يختلط</h2><p class="mt-2">فقدان سجل مريض أو الخلط بين اثنين قد يوصل علاجًا إلى غير صاحبه. المنع: معرف فريد، ومطابقة مع المصدر، وصلاحيات، وأثر لا يُمحى بصمت.</p></article>
+        </div>
+        <p>الخطأ يأتي من إدخال مهمل، أو سماع خاطئ، أو تكرار، أو تطهير ناقص، أو سهو يترك فجوة. رقم واحد ناقص يكفي. التطهير مراجعة مستمرة للدقة والاكتمال والحداثة.</p>
+        <div class="grid lg:grid-cols-3">
+          <article class="panel accent"><h3>التحقق</h3><p class="mt-2">مقارنة بالمصدر الأصلي، أو إدخال مرتين ومطابقة النسختين. هدفه كشف الخطأ والتكرار والسهو. هو الذي يقول: هذا العنوان هو الذي كتبه الزبون فعلًا.</p></article>
+          <article class="panel accent-gold"><h3>التحقق من الصحة</h3><p class="mt-2">اختبار الشكل: النوع، والمدى، ورفض الفراغ. عين صاحب العمل ترى ما تتوقع، لذلك مراجعة شخص آخر أقوى.</p></article>
+          <article class="panel accent-blue"><h3>قناع الإدخال</h3><p class="mt-2">قاعدة تقيد النوع أو التنسيق أو الطول: رفض كمية خارج مدى، ورفض شكل لا يطابق النمط، ورفض فراغ المعرف الفريد. المدقق الإملائي لا يتمم هذا؛ قد يقبل رقم هاتف خاطئًا لأنه ليس كلمة مكسورة.</p></article>
+        </div>
+        <div class="panel stack no-print">
+          <h2>مختبر القناع</h2>
+          <p class="muted">اسم إلزامي، وكمية من 1 إلى 500، وهاتف يبدأ بـ 07 ثم ثمانية أرقام، وبريد ذو شكل مفهوم، ورمز مثل JAM-012.</p>
+          <div class="grid md:grid-cols-2">
+            <label class="field">اسم الصنف<input id="lab-name" type="text" autocomplete="off"></label>
+            <label class="field">الكمية<input id="lab-qty" type="text" inputmode="numeric" autocomplete="off"></label>
+            <label class="field">هاتف المورّد<input id="lab-phone" type="text" autocomplete="off" placeholder="07xxxxxxxx"></label>
+            <label class="field">البريد<input id="lab-email" type="email" autocomplete="off"></label>
+            <label class="field">رمز المنتج<input id="lab-code" type="text" autocomplete="off" placeholder="JAM-012"></label>
+          </div>
+          <button id="lab-run" class="btn btn-primary" type="button">افحصوا البطاقة</button>
+          <div id="lab-out" class="callout" aria-live="polite">أدخلوا البيانات ليبدأ الفحص. القبول الشكلي لا يثبت أن الرقم لشخص حقيقي.</div>
+        </div>
+        <div id="valid-game" class="game-board no-print"></div>
+        <article class="panel stack">
+          <h2>مخزون يُفرز ويُصفى ويُرسم</h2>
+          <p class="muted">معيار واحد يصلح لسؤال بسيط. «معلبات كميتها أقل من 20» معياران، وهذا باب الاستعلام الأوسع. استعلام محفوظ يمكن تنقيحه: من طلب في شهر المعارض، ثم من يسكن عمّان.</p>
+          <div class="cluster no-print">
+            <button class="btn btn-ghost" type="button" data-stock="all">الكل</button>
+            <button class="btn btn-ghost" type="button" data-stock="bake">مخبوزات</button>
+            <button class="btn btn-ghost" type="button" data-stock="jar">معلبات</button>
+            <button class="btn btn-ghost" type="button" data-stock="compound">معلبات أقل من 20</button>
+            <button class="btn btn-ghost" type="button" data-stock="name-asc">الاسم أ–ي</button>
+            <button class="btn btn-ghost" type="button" data-stock="qty-desc">الكمية تنازليًا</button>
+            <button id="csv-download" class="btn btn-gold" type="button">تنزيل CSV</button>
+          </div>
+          <div class="sheet-wrap">
+            <table class="sheet">
+              <thead><tr><th>المنتج</th><th>الكمية</th><th>الصنف</th></tr></thead>
+              <tbody id="stock-body">
+                <tr data-name="خبز بلدي" data-qty="40" data-cat="مخبوزات"><td>خبز بلدي</td><td>40</td><td>مخبوزات</td></tr>
+                <tr data-name="مربى مشمش" data-qty="25" data-cat="معلبات"><td>مربى مشمش</td><td>25</td><td>معلبات</td></tr>
+                <tr data-name="صلصة بندورة" data-qty="12" data-cat="معلبات"><td>صلصة بندورة</td><td>12</td><td>معلبات</td></tr>
+                <tr data-name="خبز بالزعتر" data-qty="30" data-cat="مخبوزات"><td>خبز بالزعتر</td><td>30</td><td>مخبوزات</td></tr>
+                <tr data-name="مربى تين" data-qty="8" data-cat="معلبات"><td>مربى تين</td><td>8</td><td>معلبات</td></tr>
+                <tr data-name="دبس رمان" data-qty="22" data-cat="معلبات"><td>دبس رمان</td><td>22</td><td>معلبات</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+        <div class="grid md:grid-cols-2">
+          <article class="panel">
+            <h3>تمثيل بياني</h3>
+            <p class="muted">الرسم للمجموعة كلها. التصفية تغيّر الجدول، ويبقى الرسم نموذج البيانات لا آخر استعلام.</p>
+            <div id="bars" class="stack mt-3"></div>
+          </article>
+          <article class="panel stack">
+            <h3>نموذج عددي</h3>
+            <p class="muted">أسبوع واحد بالدينار. بلا أجور ولا طاقة ولا نقل. الافتراض ظاهر، والناتج يُراجع. هذا غير الاستهلاك: الاستهلاك يوزّع ثمن أصل، كطابعة، على سنوات الانتفاع.</p>
+            <label class="field">سعر الوحدة<input id="model-price" data-save="model-price" type="number" min="0" step="0.01" value="3"></label>
+            <label class="field">الوحدات<input id="model-qty" data-save="model-qty" type="number" min="0" step="1" value="40"></label>
+            <label class="field">المكونات للوحدة<input id="model-ing" data-save="model-ing" type="number" min="0" step="0.01" value="1.2"></label>
+            <label class="field">التغليف للوحدة<input id="model-pack" data-save="model-pack" type="number" min="0" step="0.01" value="0.4"></label>
+            <button id="model-run" class="btn btn-primary" type="button">احسبوا</button>
+            <div id="model-out" class="callout" aria-live="polite"></div>
+          </article>
+        </div>
+        <article class="panel stack">
+          <h3>التكرار قبل التطهير</h3>
+          <div class="sheet-wrap"><table class="sheet"><thead><tr><th>الاسم</th><th>الهاتف</th></tr></thead><tbody id="dup-body">
+            <tr data-phone="0791111111"><td>سارة الخطيب</td><td>0791111111</td></tr>
+            <tr data-phone="0782222222"><td>ليلى حداد</td><td>0782222222</td></tr>
+            <tr data-phone="0791111111"><td>سارة الخطيب</td><td>0791111111</td></tr>
+            <tr data-phone="0773333333"><td>عمر نزال</td><td>0773333333</td></tr>
+          </tbody></table></div>
+          <button id="dup-run" class="btn btn-primary no-print" type="button">افحصوا التكرار</button>
+          <p id="dup-out" class="font-bold" aria-live="polite"></p>
+        </article>
+        <div class="grid md:grid-cols-2">
+          <article class="panel accent">
+            <h3>الواجهة الخلفية</h3>
+            <p class="mt-2">جداول الخام، محمية حتى لا يحذف الإدخال اليومي سجلًا. التخطيط هنا أهم من الشاشة: سجل، وحقول، وأنواع، ومعاملات للطول والتنسيق والإلزام. العملاء في جدول والطلبات في جدول مرتبط، فيقل نسخ العنوان في كل صف.</p>
+          </article>
+          <article class="panel accent-gold">
+            <h3>الواجهة الأمامية</h3>
+            <p class="mt-2">لوحة المعلومات: زر يفتح النموذج. منها تخرج التقارير والنماذج والرسوم. سمّوا الحقل بما لا يلتبس. الحذف يسبقه تحذير، ورفض القناع يظهر معه سبب. ملف CSV ينقل السجلات نصًا مفصولًا بين البرامج.</p>
+          </article>
+        </div>
+        <details class="fold">
+          <summary>حين تُصمَّم الواجهة، وحين يُدار الخطر</summary>
+          <div class="fold-body stack">
+            <p>سهولة الاستخدام تعني إدخالًا واستخراجًا بلا غموض. تيسير الوصول يراعي اللغة واللون والحجم وعدد النقرات. مطابقة الشاشة للنموذج الورقي تجعل النظام مألوفًا. الحل المخصّص أغلى ويحتاج تدريبًا أطول.</p>
+            <p>فريق معني بمخاطر المعلومات يبدأ من حاجة المستخدم، ويصنّف ما يجب حمايته، ويميّز ما يُحسم داخل الفريق مما يُرفع، ثم يسجّل القرار والمخاطر المتبقية. الأمن يناسب الغرض، واللغة مفهومة، والدليل يسبق الانطباع.</p>
+          </div>
+        </details>
+        <div id="quiz-s4" class="quiz-host no-print"></div>
+        <div class="bridge">
+          <a class="btn btn-ghost" href="sources.html">السابق</a>
+          <p>الآن الأدوات واضحة. ننزلها على مطبخ حقيقي: مولي تريد وقتًا أقل للمساء ووقتًا أكثر للخبز، بميزانية صغيرة، ومن غير أن تؤتمت خطأ ملصق غذائي.</p>
+          <a class="btn btn-primary" href="molly.html">التالي: مولي</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site"><div class="wrap cluster justify-between"><p>الدقة شرط حتى ينفع الفرز والرسم والقرار.</p><button id="reset-state" class="btn btn-ghost" type="button">مسح حفظ هذا المتصفح</button></div></footer>
+  <dialog id="glossary" class="sheet-dialog"><form method="dialog"><div class="dialog-head"><h2>المصطلحات</h2><button class="btn btn-ghost" value="cancel">إغلاق</button></div><div class="dialog-body stack"><input id="gloss-q" type="search" placeholder="ابحثوا عن مصطلح" aria-label="بحث"><div id="gloss-list" class="stack"></div></div></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

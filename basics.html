@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark" data-scale="lg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>الأساسيات | البيانات والمعلومات</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>(function(){try{if(localStorage.getItem("btec-u1b-theme")==="light")document.documentElement.classList.remove("dark");var s=localStorage.getItem("btec-u1b-scale");if(s)document.documentElement.dataset.scale=s;}catch(e){}})();</script>
+</head>
+<body data-page="station-1" data-label="الأساسيات">
+  <a class="skip" href="#content">تخطي إلى المحتوى</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a href="index.html" class="cluster" style="text-decoration:none;color:inherit">
+        <span class="hero-mark" aria-hidden="true"><svg viewBox="0 0 48 48" width="34" height="34"><circle cx="16" cy="30" r="7" fill="#f6d58a"/><circle cx="30" cy="16" r="8" fill="#fff"/><circle cx="34" cy="32" r="5" fill="#fdba74"/></svg></span>
+        <span><span class="kicker" style="display:block">الوحدة 1 · الصف الحادي عشر</span><strong class="logo-word">البيانات والمعلومات</strong></span>
+      </a>
+      <div class="cluster">
+        <span id="here" class="chip">الأساسيات</span>
+        <span id="timer-display" class="timer-readout">00:00</span>
+        <button id="timer-pause" class="btn btn-ghost" type="button" hidden>إيقاف مؤقت</button>
+        <button id="timer-stop" class="btn btn-ghost" type="button" hidden>إنهاء</button>
+        <button id="theme-toggle" class="btn btn-ghost" type="button">مظهر فاتح</button>
+        <button id="scale-toggle" class="btn btn-ghost" type="button">خط كبير</button>
+        <button id="glossary-open" class="btn btn-gold" type="button">المصطلحات</button>
+      </div>
+    </div>
+    <nav class="wrap nav-scroll" aria-label="صفحات الدرس">
+      <a class="nav-link" href="index.html">المقدمة</a>
+      <a class="nav-link" href="basics.html">الأساسيات</a>
+      <a class="nav-link" href="communities.html">المجتمعات</a>
+      <a class="nav-link" href="sources.html">المصادر</a>
+      <a class="nav-link" href="quality.html">الجودة</a>
+      <a class="nav-link" href="molly.html">مولي</a>
+      <a class="nav-link" href="practice.html">التدريب</a>
+    </nav>
+    <div class="progress"><span id="progress-bar"></span></div>
+    <p id="progress-label" class="sr">التقدم</p>
+    <p id="timer-status" class="sr" aria-live="polite"></p>
+  </header>
+  <main id="content">
+    <section class="page-hero">
+      <div class="wrap hero-grid">
+        <div class="stack">
+          <p class="kicker">المحطة الأولى</p>
+          <h1>من كومة خام إلى قرار</h1>
+          <p>المسرح الذي رأيتموه في المقدمة لا يعمل وحده. هذه الصفحة تميّز المادة الخام من الناتج المفيد، ثم توزّع الحاجة على ثلاثة طوابق داخل المؤسسة.</p>
+          <button class="btn btn-ghost" type="button" data-min="12">مؤقت 12 دقيقة</button>
+        </div>
+        <div class="scene" aria-hidden="true">
+          <svg viewBox="0 0 640 340">
+            <rect x="30" y="90" width="120" height="150" rx="20" fill="#134e4a"/>
+            <circle cx="70" cy="140" r="14" fill="#99f6e4"/><circle cx="110" cy="170" r="10" fill="#fde68a"/><circle cx="80" cy="200" r="12" fill="#fdba74"/>
+            <path d="M170 165 h70" stroke="#f6d58a" stroke-width="8" stroke-linecap="round"/>
+            <rect x="250" y="100" width="130" height="130" rx="28" fill="#0f766e"/>
+            <path d="M290 165 h50 M315 140 v50" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+            <path d="M400 165 h70" stroke="#f6d58a" stroke-width="8" stroke-linecap="round"/>
+            <rect x="480" y="95" width="130" height="140" rx="22" fill="#b45309"/>
+            <path d="M510 200 l22-40 18 28 16-18" fill="none" stroke="#fff7ed" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section id="station-1" class="section-pad">
+      <div class="wrap stack">
+        <div class="step-line">
+          <article class="step"><strong>بيانات خام</strong><p class="muted">أرقام، صور، صوت، ملاحظات. «بيانات» جمع «بيان»، وليست أرقامًا فقط.</p></article>
+          <article class="step"><strong>معالجة</strong><p class="muted">تنظيم وفرز وحساب. الطريقة تغيّر الناتج حتى لو كان المصدر واحدًا.</p></article>
+          <article class="step"><strong>معلومات</strong><p class="muted">ناتج مفيد. مدير المبيعات يرى منتجًا، والمدير يرى أداء المؤسسة كلها.</p></article>
+          <article class="step"><strong>قرار</strong><p class="muted">الإنسان يفسّر. في الشركة الصغيرة قد يصنع شخص واحد السلسلة كاملة.</p></article>
+        </div>
+        <div class="grid md:grid-cols-2">
+          <article class="panel accent">
+            <h2>البيانات</h2>
+            <p class="mt-2">مادة تُخزَّن وتُستخدم بالبرامج قبل أن يصبح لها معنى قرار. صورة فاتورة لم تُفرَّغ، أو قائمة أعداد مخزون بلا مقارنة، ما زالت بيانات.</p>
+          </article>
+          <article class="panel accent-gold">
+            <h2>المعلومات</h2>
+            <p class="mt-2">تظهر حين تُنظَّم البيانات لغرض. «مربى المشمش هو الأعلى ربحًا هذا الشهر» معلومة، لأنها تحمل اتجاهًا يمكن البناء عليه. جمع ما يفعله المنافس وكيف يستجيب السوق يُسمّى معلومات السوق.</p>
+          </article>
+        </div>
+        <div class="panel stack">
+          <h2>حوّلوا مثالًا الآن</h2>
+          <label class="field">بيانات<input id="raw-data" data-save="raw-data" type="text" autocomplete="off" placeholder="بيع 40 رغيفًا الخميس و12 الاثنين"></label>
+          <label class="field">معلومات<input id="info-data" data-save="info-data" type="text" autocomplete="off" placeholder="الطلب يرتفع نهاية الأسبوع"></label>
+          <button id="builder-run" class="btn btn-primary" type="button">اعرضوا التحويل</button>
+          <div id="builder-out" class="callout" aria-live="polite"></div>
+        </div>
+        <h2>ثلاثة طوابق، وثلاثة أسئلة</h2>
+        <div class="stack">
+          <article class="floor panel">
+            <div class="floor-no" style="background:#0f766e">1</div>
+            <div><h3>المستوى الاستراتيجي</h3><p>إلى أين تمضي المؤسسة؟ أسواق، تقنيات ناشئة، إنفاق، وسياسات. الحقائق هنا ناتج معالجة لا انطباع. مثال: هل تبيع مولي خارج مجتمعها المحلي العام القادم؟</p></div>
+          </article>
+          <article class="floor panel">
+            <div class="floor-no" style="background:#b45309">2</div>
+            <div><h3>مستوى الإدارة</h3><p>كيف تسير الأنشطة؟ تفضيلات العملاء ومواسم الإنفاق، حضور الموظفين وإجازاتهم، جودة الموردين، والأداء المالي: التدفق النقدي والأجور والربح والخسارة.</p></div>
+          </article>
+          <article class="floor panel">
+            <div class="floor-no" style="background:#9f1239">3</div>
+            <div><h3>المستوى التشغيلي</h3><p>ماذا نفعل اليوم؟ الموارد، وكفاية المخزون، وأرقام العملاء، ومتابعة من دفع ودفع الموردين حتى لا يتأخر توريد الغد.</p></div>
+          </article>
+        </div>
+        <aside class="callout">
+          <p><strong>التدفق النقدي</strong> حركة الأموال الداخلة والخارجة. على مستوى الإدارة يُقرأ صورة شهرية للأداء. على المستوى التشغيلي يُستخدم هذا الصباح: من لم يدفع بعد حتى نشتري السكر؟ الكلمة واحدة، والسؤال هو الذي يغيّر الطابق.</p>
+        </aside>
+        <article class="panel stack">
+          <h2>في الوقت المحدد</h2>
+          <p>يُسمّى أيضًا «في الوقت المناسب». الغرض تقليل زمن الإنتاج والتكامل مع العميل والمورد، فيبقى المخزون الراكد في حده الأدنى. يمكن رسمه في جدول، لكن معادلة خاطئة تنتج معلومة كاذبة بثقة عالية. لذلك يعود هذا النظام في صفحة الجودة: بلا رقم مخزون صحيح ينهار الوعد.</p>
+          <div class="step-line">
+            <article class="step"><strong>طلب</strong><p class="muted">العميل يريد اليوم.</p></article>
+            <article class="step"><strong>إشارة</strong><p class="muted">الإنتاج يعرف الكمية.</p></article>
+            <article class="step"><strong>توريد</strong><p class="muted">المواد تصل حين تُحتاج.</p></article>
+            <article class="step"><strong>تسليم</strong><p class="muted">بلا مستودع ممتلئ لأشهر.</p></article>
+          </div>
+        </article>
+        <article class="panel">
+          <h2>الأداة تكبر مع المؤسسة</h2>
+          <p class="mt-2">الأعمال الصغيرة تبدأ بحزم عامة: جداول، ومستندات، وربما قاعدة بسيطة، وحزم محاسبة أو مهام بتكلفة منخفضة. حين يكبر الحجم تظهر أنظمة علاقات العملاء، والحزم الإدارية الواسعة، أو حل مخصّص صُمم لحاجة واحدة. التاجر الفرد لا يحتاج نظام مصنع في الأسبوع الأول.</p>
+        </article>
+        <details class="fold">
+          <summary>لماذا تختلف حاجة كل مؤسسة؟</summary>
+          <div class="fold-body grid md:grid-cols-2">
+            <article class="panel"><h3>القطاع</h3><p class="muted mt-2">مستشفى يدير مرضى وعلاجًا ومباني. مخبز يدير طلبات ومواسم بيع.</p></article>
+            <article class="panel"><h3>الحجم</h3><p class="muted mt-2">قد يقل عدد العملاء ويكبر ملف كل عميل، فيحتاج النظام إلى عمق لا إلى عدد أسماء.</p></article>
+            <article class="panel"><h3>منتج أو خدمة</h3><p class="muted mt-2">مصنع وصالون يتعاملان مع موردين، والاستثمار والمكوّنات يختلفان واسعًا.</p></article>
+            <article class="panel"><h3>الأهداف</h3><p class="muted mt-2">تُقاس بمراحل وتواريخ تُحدَّد قبل البدء، لا في النهاية فقط.</p></article>
+            <article class="panel"><h3>صوت العميل</h3><p class="muted mt-2">تعقيبات وشكاوى وبطاقات ولاء تكشف ما يُشترى وما توقف. الشرط تفسير دقيق.</p></article>
+            <article class="panel"><h3>استمرار المنتج</h3><p class="muted mt-2">عام 1985 أجبرت موجة العملاء كوكا كولا على التراجع عن وصفة جديدة. وتعقيبات لاحقة غيّرت مكوّنات، وأعادت سوق الفينيل مشغّلًا ظُن أنه انتهى. المعلومة هنا حمت المنتج أو أعادته.</p></article>
+            <article class="panel"><h3>سياسة وتواصل وتشغيل</h3><p class="muted mt-2">حتى العمل الصغير يحتاج قواعد للسلامة والإجازات والشراء. بعض البلدان تشترط إذن الفرد قبل جمع البيانات ومشاركتها. التشغيل اليومي يشمل مناوبات ونسخًا احتياطيًا وحسابات.</p></article>
+            <article class="panel"><h3>خمسة اختبارات للمصدر</h3><p class="muted mt-2">الحجم، والسرعة لأن البيان يَتقادم، والتنوع حتى لا تكذب نسبة بلا عينة، والصدق بين مصدر مباشر وإشاعة، والقيمة: تحسين منتج قائم قد يكون أجدى من اختراع مكلف.</p></article>
+          </div>
+        </details>
+        <aside class="callout warn">
+          <h3>ناقشوا</h3>
+          <p>لو كنتم مكان مدير المبيعات، أي معلومة تطلبون من أرقام هذا الأسبوع؟ وأي رقم خام لا يكفي وحده؟</p>
+          <button class="btn btn-gold mt-3" type="button" data-min="2">دقيقتان</button>
+        </aside>
+        <div id="quiz-s1" class="quiz-host no-print"></div>
+        <div class="bridge">
+          <a class="btn btn-ghost" href="index.html">السابق</a>
+          <p>عرفنا ماذا نحتاج في كل طابق. الصفحة التالية تسأل: من أين يأتي كثير من هذه البيانات اليوم؟ من الناس وهم يتحدثون على الشبكة.</p>
+          <a class="btn btn-primary" href="communities.html">التالي: المجتمعات</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site"><div class="wrap cluster justify-between"><p>من البيانات إلى قرار كل مستوى.</p><button id="reset-state" class="btn btn-ghost" type="button">مسح حفظ هذا المتصفح</button></div></footer>
+  <dialog id="glossary" class="sheet-dialog"><form method="dialog"><div class="dialog-head"><h2>المصطلحات</h2><button class="btn btn-ghost" value="cancel">إغلاق</button></div><div class="dialog-body stack"><input id="gloss-q" type="search" placeholder="ابحثوا عن مصطلح" aria-label="بحث"><div id="gloss-list" class="stack"></div></div></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

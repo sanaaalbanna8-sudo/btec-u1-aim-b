@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark" data-scale="lg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>التدريب | البيانات والمعلومات</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23334155'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>(function(){try{if(localStorage.getItem("btec-u1b-theme")==="light")document.documentElement.classList.remove("dark");var s=localStorage.getItem("btec-u1b-scale");if(s)document.documentElement.dataset.scale=s;}catch(e){}})();</script>
+</head>
+<body data-page="games" data-label="التدريب">
+  <a class="skip" href="#content">تخطي إلى المحتوى</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a href="index.html" class="cluster" style="text-decoration:none;color:inherit">
+        <span class="hero-mark" aria-hidden="true"><svg viewBox="0 0 48 48" width="34" height="34"><circle cx="16" cy="30" r="7" fill="#f6d58a"/><circle cx="30" cy="16" r="8" fill="#fff"/><circle cx="34" cy="32" r="5" fill="#fdba74"/></svg></span>
+        <span><span class="kicker" style="display:block">الوحدة 1 · الصف الحادي عشر</span><strong class="logo-word">البيانات والمعلومات</strong></span>
+      </a>
+      <div class="cluster">
+        <span id="here" class="chip">التدريب</span>
+        <span id="timer-display" class="timer-readout">00:00</span>
+        <button id="timer-pause" class="btn btn-ghost" type="button" hidden>إيقاف مؤقت</button>
+        <button id="timer-stop" class="btn btn-ghost" type="button" hidden>إنهاء</button>
+        <button id="theme-toggle" class="btn btn-ghost" type="button">مظهر فاتح</button>
+        <button id="scale-toggle" class="btn btn-ghost" type="button">خط كبير</button>
+        <button id="glossary-open" class="btn btn-gold" type="button">المصطلحات</button>
+      </div>
+    </div>
+    <nav class="wrap nav-scroll" aria-label="صفحات الدرس">
+      <a class="nav-link" href="index.html">المقدمة</a>
+      <a class="nav-link" href="basics.html">الأساسيات</a>
+      <a class="nav-link" href="communities.html">المجتمعات</a>
+      <a class="nav-link" href="sources.html">المصادر</a>
+      <a class="nav-link" href="quality.html">الجودة</a>
+      <a class="nav-link" href="molly.html">مولي</a>
+      <a class="nav-link" href="practice.html">التدريب</a>
+    </nav>
+    <div class="progress"><span id="progress-bar"></span></div>
+    <p id="progress-label" class="sr">التقدم</p>
+    <p id="timer-status" class="sr" aria-live="polite"></p>
+  </header>
+  <main id="content">
+    <section class="page-hero">
+      <div class="wrap hero-grid">
+        <div class="stack">
+          <p class="kicker">إغلاق الحلقة</p>
+          <h1>ثبّتوا المسار باللعب</h1>
+          <p>من الخام إلى المعلومة، ومن المجتمع إلى المصدر، ومن القناع إلى قرار مولي. هذه الصفحة تعيد الربط من غير شرح جديد.</p>
+          <div class="cluster">
+            <a class="btn btn-ghost" href="sources.html#method-game">لعبة طريقة الجمع</a>
+            <a class="btn btn-ghost" href="quality.html#valid-game">لعبة التحقق</a>
+          </div>
+        </div>
+        <div class="scene" aria-hidden="true">
+          <svg viewBox="0 0 640 320">
+            <rect x="40" y="70" width="150" height="170" rx="24" fill="#0f766e"/>
+            <rect x="220" y="90" width="150" height="150" rx="24" fill="#b45309"/>
+            <rect x="400" y="60" width="180" height="190" rx="24" fill="#1e3a8a"/>
+            <circle cx="115" cy="140" r="28" fill="#fde68a"/>
+            <circle cx="295" cy="160" r="28" fill="#ffedd5"/>
+            <path d="M450 150 l30 30 60-70" fill="none" stroke="#fef9c3" stroke-width="12" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section id="games" class="section-pad">
+      <div class="wrap stack">
+        <div id="data-game" class="game-board"></div>
+        <div id="match-game" class="game-board"></div>
+        <div id="level-game" class="game-board"></div>
+        <article class="panel">
+          <h2>أفضل نتائج الاختبارات على هذا المتصفح</h2>
+          <ul id="scoreboard" class="outcomes"></ul>
+        </article>
+        <article class="panel stack">
+          <h2>بطاقة الخروج</h2>
+          <label class="field">ما الفرق بين البيانات والمعلومات في جملة؟<textarea id="exit-1" data-save="exit-1"></textarea></label>
+          <label class="field">خطر واحد للمجتمعات على المؤسسة.<textarea id="exit-2" data-save="exit-2"></textarea></label>
+          <label class="field">أول أداة تنصحون بها مولي، ولماذا ليست الأضخم؟<textarea id="exit-3" data-save="exit-3"></textarea></label>
+        </article>
+        <div class="bridge">
+          <a class="btn btn-ghost" href="molly.html">العودة إلى مولي</a>
+          <p>إن بقيت جملة الخروج غامضة، فارجعوا صفحة واحدة فقط: إما الأساسيات للفرق، أو الجودة للخطر، أو مولي للأداة.</p>
+          <a class="btn btn-primary" href="index.html">خريطة المسار</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site"><div class="wrap cluster justify-between"><p>Alt مع الأرقام 1 إلى 7 ينقل بين الصفحات.</p><button id="reset-state" class="btn btn-ghost" type="button">مسح حفظ هذا المتصفح</button></div></footer>
+  <dialog id="glossary" class="sheet-dialog"><form method="dialog"><div class="dialog-head"><h2>المصطلحات</h2><button class="btn btn-ghost" value="cancel">إغلاق</button></div><div class="dialog-body stack"><input id="gloss-q" type="search" placeholder="ابحثوا عن مصطلح" aria-label="بحث"><div id="gloss-list" class="stack"></div></div></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
